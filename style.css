@@ -1,0 +1,224 @@
+*{
+    box-sizing: initial;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#navbar{
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.nav1{
+    background-color: rgb(90, 23, 23);
+}
+
+.container-fluid a{
+    text-decoration: none;
+    color: wheat;
+    padding: 0 200px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#intro{
+    position: relative;
+}
+
+.intro{
+    min-height: 45rem;
+    background-color: rgb(90, 23, 23);
+    text-align: center;
+    justify-content: center;
+    padding-top: 22rem; 
+    position: relative;
+}
+
+.intro h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:wheat;
+    font-size: 3.5rem;
+    font-weight: 750;
+    margin-bottom: 1rem;
+}
+
+.intro h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:wheat;
+    font-size: 2.5rem;
+    font-weight: 750;
+    margin-bottom: 1rem;
+}
+
+.intro .pro{
+    text-decoration: underline;
+}
+
+.intro p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:wheat;
+    font-size: 2rem;
+    font-weight: 450;
+    margin-bottom: 1rem;
+}
+
+#aboutme{
+    position: relative;
+    display: flex;
+    min-height: 500px;
+    background-color:bisque;
+    align-items: center;
+    justify-content: center;
+}
+
+.languages h1{
+    color: rgb(90, 23, 23);
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+#aboutme .icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -150px 0 -150px;
+}
+
+.languages .html5{
+    color: #E44D26;
+}
+
+.languages .html5:hover{
+    color: #ca3e1b;
+    transform: scale(1.2);
+}
+
+.languages .css3{
+    color: #2565AE;
+}
+
+.languages .css3:hover{
+    color: #0F5298;
+    transform: scale(1.2);
+}
+
+.languages .js{
+    color: #f3d514;
+}
+
+.languages .js:hover{
+    color: #e4c70d;
+    transform: scale(1.2);
+}
+
+.languages .bootstrap{
+    color: #602C50;
+}
+
+.languages .bootstrap:hover{
+    color: #4d213f;
+    transform: scale(1.2);
+}
+
+.languages .git{
+    color: #3E2C00;
+}
+
+.languages .git:hover{
+    color: #352601;
+    transform: scale(1.2);
+}
+
+.languages .node{
+    color: #3C873A;
+}
+
+.languages .node:hover{
+    color: #2e722c;
+    transform: scale(1.2);
+}
+
+.languages .mongo{
+    color: #3FA037;
+}
+
+.languages .mongo:hover{
+    color: #26701f;
+    transform: scale(1.2);
+}
+
+.languages .react{
+    color: #61DBFB;
+}
+
+.languages .react:hover{
+    color: #3cbada;
+    transform: scale(1.2);
+} 
+
+#projects .header{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#projects .myworks{
+    min-height: 500px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.tindog .clock .dice p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clock{
+    margin-bottom: 50px;
+}
+
+
+.simon{
+    margin-bottom: 50px; 
+}
+
+.drum .simon .bmi p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact{
+    min-height: 75px;
+    background-color: rgb(90, 23, 23);
+}
+
+#contact .socials{
+    padding-top: 20px;  
+}
+
+.socials .link{
+    color: wheat;
+    margin-left: 25px;
+}
+
+.socials .link:hover{
+    color: rgb(240, 210, 156);
+}
+
+.socials .git{
+    color: wheat;
+    margin-left: 25px;
+}
+
+.socials .git:hover{
+    color: rgb(240, 210, 156);
+}
+
+
+
+
+
