@@ -17,16 +17,30 @@
 </head>
 
 <body>
-
-    <header id="navbar">
-        <nav class="navbar navbar-nav fixed-top navbar-expand-lg nav1">
-
-         <div class="container-fluid">
-         <a href="#intro">Home</a>
-         <a href="#aboutme">Learning</a>
-         <a href="#projects">Projects</a>        
-         <a href="#contact">Contact Me</a>
-        </nav>
+    <header id="heading">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:rgb(90, 23, 23);">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">Learning</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
     </header>    
             <!-- Front Page -->
@@ -44,9 +58,9 @@
         <!-- Languages Learnt -->
     <section id="aboutme">
 
-         <div class="languages">
+         <div class="languages container-fluid">
             <h1>Here are some of the things that I'm learning:</h1>
-             <div class="icons">
+            <div class="icons">
             <a href="https://en.wikipedia.org/wiki/HTML5" target = "_blank" class="html5" title="HTML5"><i class="fab fa-html5 fa-5x"></i></a>
             <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="css3" title="CSS3"><i class="fab fa-css3-alt fa-5x"></i></a>
             <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" class="js" title="JavaScript"><i class="fab fa-js fa-5x"></i></a>
@@ -55,17 +69,21 @@
             <a href="https://en.wikipedia.org/wiki/Git" target="_blank" title="git" class="git"><i class="fab fa-git fa-5x"></i></a>
             <a href="https://en.wikipedia.org/wiki/MongoDB" target="_blank" title="MongoDB" class="mongo"><i class="fas fa-leaf fa-5x"></i></a>
             <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)" target="_blank" title="React" class="react"><i class="fab fa-react fa-5x"></i></a>
-        </div>
-        </div>
+            </div>
+
+            </div>
+          </div>
     </section>
 
+
     <section id="projects">
-          <div class="header row">
+          <div class="container">
           <h2>Portfolio:</h2>
           </div>
           
+          <div class="allprojects container-fluid">
           <div class="myworks row">
-          <div class="tindog col-lg-3">
+          <div class="tindog col-lg-4">
           <h4>TinDog</h4>
           <p>Meet new and interesting dogs nearby <br>
              A mockup web application of modern day tinder <br>
@@ -73,7 +91,7 @@
             <a href="https://alexists7.github.io/Tindog-website/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
             <a href="https://github.com/Alexists7/Tindog-website" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
         </div> 
-          <div class="clock col-lg-3">
+          <div class="clock col-lg-4">
            <h4>Clock</h4>
            <p>A simple euphoria clock<br>
               Built with help of a youtube video <br>
@@ -81,7 +99,7 @@
               <a href="https://alexists7.github.io/Clock/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
               <a href="https://github.com/Alexists7/Clock" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a>   
           </div>
-          <div class="dice col-lg-3">
+          <div class="dice col-lg-4">
            <h4>Dice Game</h4>
            <p>Solve your arguments<br>
             Roll the dice with this Web App<br>
@@ -89,7 +107,9 @@
             <a href="https://alexists7.github.io/Dice-Game/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
             <a href="https://github.com/Alexists7/Dice-Game" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
           </div>
-          <div class="drum col-lg-3">
+        </div>
+        <div class="myworks row">
+          <div class="drum col-lg-4">
             <h4>Drum kit</h4>
             <p>Fun interactive website<br>
              Click or press keys to get sound back<br>
@@ -97,7 +117,7 @@
              <a href="https://alexists7.github.io/Drum/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
              <a href="https://github.com/Alexists7/Drum" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>
-          <div class="simon col-lg-3">
+          <div class="simon col-lg-4">
             <h4>Simon Game</h4>
             <p>Fun, simple memory game<br>
              Click the right colour to advance<br>
@@ -105,7 +125,7 @@
              <a href="https://alexists7.github.io/Simon/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
              <a href="https://github.com/Alexists7/Simon" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>
-           <div class="bmi col-lg-3">
+           <div class="bmi col-lg-4">
             <h4>BMI Calculator</h4>
             <p>Are you overweight?<br>
              Find out with this basic BMI Calculator<br>
@@ -113,7 +133,9 @@
              <a href="https://gentle-beach-83240.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
              <a href="https://github.com/Alexists7/Bmi-Calculator" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>
-           <div class="weather col-lg-3">
+          </div>
+          <div class="myworks row">
+           <div class="weather col-lg-4">
             <h4>Weather Application</h4>
             <p>Is it sunny or rainy where you are?<br>
              Find out with my Weather Application<br>
@@ -121,7 +143,7 @@
              <a href="https://dry-ravine-61210.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
              <a href="https://github.com/Alexists7/Weather-App" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>
-           <div class="todo col-lg-3">
+           <div class="todo col-lg-4">
             <h4>To Do List</h4>
             <p>Don't forget important items<br>
              Add it to this To Do List to remember<br>
@@ -129,7 +151,7 @@
              <a href="https://morning-retreat-58109.herokuapp.com/" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-desktop"></i> Website</button></a> 
              <a href="https://github.com/Alexists7/toDoListApp" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>
-           <div class="notes col-lg-3">
+           <div class="notes col-lg-4">
             <h4>Notes Application</h4>
             <p>Need to note things down?<br>
              Use this Notes App to collect your ideas<br>
@@ -138,6 +160,7 @@
              <a href="https://github.com/Alexists7/Keeper-App" target="_blank"><button type="button" class="btn btn-outline-dark"><i class="fas fa-code"></i> Source Code</button></a> 
            </div>             
         </div>
+      </div> 
   </section>
 
   <footer id="contact">
@@ -149,5 +172,7 @@
 
  </body>
 </html>
+
+
 
 

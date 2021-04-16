@@ -1,23 +1,10 @@
-*{
-    box-sizing: initial;
-}
-
 body{
-    margin: 0;
     text-align: center;
     justify-content: center;
 }
 
-#navbar{
-    overflow: auto;
-    white-space: nowrap;
-}
 
-.nav1{
-    background-color: rgb(90, 23, 23);
-}
-
-.container-fluid a{
+.navbar-dark .navbar-nav .nav-link{
     text-decoration: none;
     color: wheat;
     padding: 0 200px;
@@ -30,7 +17,7 @@ body{
 }
 
 .intro{
-    min-height: 45rem;
+    min-height: 66rem;
     background-color: rgb(90, 23, 23);
     text-align: center;
     justify-content: center;
@@ -69,7 +56,7 @@ body{
 #aboutme{
     position: relative;
     display: flex;
-    min-height: 500px;
+    min-height: 1000px;
     background-color:bisque;
     align-items: center;
     justify-content: center;
@@ -83,14 +70,10 @@ body{
     padding-bottom: 100px;
 }
 
-#aboutme .icons{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 -150px 0 -150px;
-}
 
 .languages .html5{
     color: #E44D26;
+    margin-left: 25px;   
 }
 
 .languages .html5:hover{
@@ -100,6 +83,7 @@ body{
 
 .languages .css3{
     color: #2565AE;
+    margin-left: 25px;
 }
 
 .languages .css3:hover{
@@ -109,6 +93,7 @@ body{
 
 .languages .js{
     color: #f3d514;
+    margin-left: 25px;
 }
 
 .languages .js:hover{
@@ -118,6 +103,7 @@ body{
 
 .languages .bootstrap{
     color: #602C50;
+    margin-left: 25px;
 }
 
 .languages .bootstrap:hover{
@@ -127,6 +113,7 @@ body{
 
 .languages .git{
     color: #3E2C00;
+    margin-left: 25px;
 }
 
 .languages .git:hover{
@@ -136,6 +123,7 @@ body{
 
 .languages .node{
     color: #3C873A;
+    margin-left: 25px;
 }
 
 .languages .node:hover{
@@ -145,6 +133,7 @@ body{
 
 .languages .mongo{
     color: #3FA037;
+    margin-left: 25px;
 }
 
 .languages .mongo:hover{
@@ -154,6 +143,7 @@ body{
 
 .languages .react{
     color: #61DBFB;
+    margin-left: 25px;
 }
 
 .languages .react:hover{
@@ -161,31 +151,30 @@ body{
     transform: scale(1.2);
 } 
 
-#projects .header{
-    padding-top: 50px;
+#projects h2{
+    padding: 100px 0 50px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} 
 
 #projects .myworks{
-    min-height: 500px;
+    min-height: 300px;
     justify-content: space-around;
-    padding-bottom: 100px;
 }
+
+@media only screen and (max-width: 1028px) {
+    #projects .col-lg-4{
+        padding-top: 50px;
+    }
+    #projects .notes{
+        padding-bottom: 100px;
+    }
+  }
 
 .tindog .clock .dice p{
     font-family: 'Open Sans', sans-serif;
-}
-
-.clock{
-    margin-bottom: 50px;
-}
-
-
-.simon{
-    margin-bottom: 50px; 
-}
+} 
 
 .drum .simon .bmi p{
     font-family: 'Open Sans', sans-serif;
